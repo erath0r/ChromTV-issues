@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private data warning
+    url: https://github.com/erath0r/ChromTV-issues#before-you-create-an-issue
+    about: Do not post IPTV credentials, tokens, or private playlist URLs in public issues.
