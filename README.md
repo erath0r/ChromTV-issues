@@ -2,7 +2,7 @@
 
 Public issue tracker for ChromTV.
 
-Use this repository to report bugs, request features, or describe playback problems. The app source code lives in a private repository.
+Use this repository to report bugs, request features, or describe playback problems.
 
 ## Before you create an issue
 
