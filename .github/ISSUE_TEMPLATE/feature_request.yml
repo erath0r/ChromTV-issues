@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest an improvement or new feature for ChromTV
+title: "Feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like ChromTV to do?
+      placeholder: "Describe the feature or improvement."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this useful?
+      placeholder: "Describe the workflow or problem this would improve."
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details or screenshots
+      description: Add examples, mockups, or screenshots if useful.
