@@ -1,0 +1,50 @@
+name: Playback problem
+description: Report buffering, player errors, fallback problems, or channels that do not start
+title: "Playback: "
+labels: [playback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not paste private stream URLs, IPTV usernames, passwords, or tokens. If needed, describe the provider/type without exposing credentials.
+  - type: input
+    id: channel
+    attributes:
+      label: Channel name
+      placeholder: "Example: DR 1 DK"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iPhone
+        - iPad
+        - Desktop web
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happens?
+      placeholder: "Buffers, falls back through streams, shows an error, audio continues in background, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: playback-log
+    attributes:
+      label: Playback log
+      description: Paste the visible playback log from ChromTV, but remove private URLs or credentials first.
+      render: text
+  - type: input
+    id: source-type
+    attributes:
+      label: Source type
+      placeholder: "M3U, Xtream, unknown"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag screenshots here if they help.
