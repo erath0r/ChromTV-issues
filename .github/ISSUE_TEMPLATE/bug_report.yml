@@ -1,0 +1,45 @@
+name: Bug report
+description: Report something in ChromTV that behaves incorrectly
+title: "Bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ChromTV. Please do not include IPTV usernames, passwords, tokens, or private playlist URLs.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+      placeholder: "When I ..., the app ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how to trigger the issue.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: "iPhone 15, iPad, desktop browser, etc."
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version or build
+      placeholder: "TestFlight build, EAS build number, or commit if known"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Drag screenshots here if they help.
