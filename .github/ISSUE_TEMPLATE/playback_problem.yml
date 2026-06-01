@@ -1,7 +1,7 @@
 name: Playback problem
 description: Report buffering, player errors, fallback problems, or channels that do not start
 title: "Playback: "
-labels: [playback]
+labels: [bug]
 body:
   - type: markdown
     attributes:
